@@ -57,7 +57,7 @@ FFmpeg 설치가 필요합니다:
 2. **코드 실행**:
    - 터미널 또는 명령 프롬프트에서 다음 명령어를 실행:
      ```bash
-     python script.py
+     python3 script.py
      ```
 
 3. **결과 확인**:
