@@ -1,2 +1,0 @@
-hello 인사하다
-world 세상
