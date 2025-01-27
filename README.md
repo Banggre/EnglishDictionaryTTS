@@ -69,8 +69,8 @@ FFmpeg 설치가 필요합니다:
 ### **커스터마이징**
 
 1. **언어 변경**:
-   - 기본 언어는 영어(`en`)로 설정되어 있습니다. 다른 언어를 사용하려면 `language` 매개변수를 변경하세요.
-   - 예: 한국어로 변경:
+   - 기본 언어는 홀수 번째 단어는 영어(`en`) 짝수 번째 단어는 한국어('ko')로 설정되어 있습니다. 다른 언어를 사용하려면 `language` 매개변수를 추가하세요.
+   - 예: 
      ```python
      text_to_speech_with_custom_pause(sample_text, language="ko", output_file="output_with_pause.mp3", pause_duration=1000)
      ```
